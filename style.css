@@ -1,0 +1,98 @@
+body{
+    background: #fafafa;
+}
+.img-buton{
+position: relative;
+}
+.dessert-1{
+    width: 100%;
+    border-radius: 6px;
+}
+.button-info{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    
+}
+.button-info button{
+    display: flex;
+align-items: center;
+border-radius: 20px;
+border: 1px solid lightgray;
+padding: 5px 10px;
+background-color: white;
+}
+.button-info button > span{
+    padding-inline: 5px;
+}
+.carts{
+    display: grid ;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 35px;
+    margin-top: 20px;
+}
+.cart-container{
+    display: grid ;
+    grid-template-columns: 3fr 1fr;
+gap: 20px;  
+}
+
+.cart-content{
+    text-transform: capitalize;
+    padding: 31px 0px 0px 3px;
+    margin-top: -5px;
+
+
+}
+.cart-content h6{
+    color: #777;
+}
+.cart-content h5
+{
+    padding-block: 5px;
+}
+.cart-content span
+{
+    color: #d53c3c;
+}
+main .box1{
+    position: relative;
+    height: fit-content;
+    border-radius: 7px;
+    background: white;
+width: 100%;
+padding: 15px;
+}
+main .box1 .no-cart{
+    width: 70%;
+    margin: auto;
+margin-top: 30px;
+}
+main .box1 h4{
+    position: absolute;
+    padding: 10px;
+}
+main .box1 .no-cart img{
+    width: 100%;
+}
+main .box1 p{
+    text-transform: capitalize;
+    text-align: center;
+    color: #d53c3c;
+    font-size: 13px;
+}
+.compute{
+    display: none;
+   
+}
+
+.appendItems{
+    margin-top:3rem;
+}
+.appendItems p{
+    text-align: start !important;
+    color: lightgray !important;
+    
+}

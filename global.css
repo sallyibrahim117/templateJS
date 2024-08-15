@@ -1,0 +1,205 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+*{
+    margin:0px ;
+    box-sizing: border-box;
+    padding: 0px;
+}
+:root{
+    --main-color:#0075ff;
+    --black-color:#333;
+    --light-color:#f6f6f6;
+    --gray-color:#777;
+    --orange-color: #f59e0b;
+--green-color: #22c55e;
+--red-color: #f44336;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+   padding-left: 15px;
+    padding-right: 15px;
+}
+.container-fluied{
+    width:95%;
+    margin: auto;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    align-items: center;
+}
+.p-15{
+    padding: 15px;
+}
+.bg-white{
+    background-color: white;
+}
+.border {
+    /* border: 1px solid var(--light-color); */
+    border: 1px solid black;
+}
+.b-bottom{
+    border-bottom: 1px solid var(--light-color);
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+.align-items{
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.text-gray{
+    color: var(--gray-color);
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.bg-blue{
+    background-color: var(--main-color);
+}
+.bg-blue-twitter{
+    background: #1da1f2;
+}
+.bg-blue-face{
+ background:#1877f2;
+}
+.bg-blue-in{
+    background-color: #0077b5;
+}
+.bg-red{
+    background:#ff0000!important;
+}
+.bg-red-youtube{
+    background-color: rgb(255 0 0 / 20%);
+}
+.bg-green {
+    background: var(--green-color);
+}
+.text-center{
+    text-align: center;
+}
+.g-7{
+    gap: 7px;
+}
+.g-15{
+    gap: 15px;
+}
+.text-gray{
+    color: var(--gray-color);
+}
+.text-white{
+    color: white;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.border-left-b{
+    border-left: 2px solid var(--main-color);
+}
+.border-left-g{
+    border-left: 2px solid var(--green-color);
+}
+.border-left-o{
+    border-left: 2px solid var(--orange-color);
+}
+.border-left-r{
+    border-left: 2px solid var(--red-color);
+}
+.border-rad{
+    border-radius: 5px;
+}
+.border-0{
+    border: none;
+}
+.d-block{
+    display: block;
+}
+.flex-column{
+    flex-direction: column;
+}
+.color-black{
+    color: black !important;
+}
+
+.text-blue{
+    color: var(--main-color);
+}
+.text-green{
+    color: var(--green-color);
+}
+.text-orange{
+    color: var(--orange-color);
+}
+.text-red{
+    color: var(--red-color);
+}
+.padding-block{
+    padding-block: 15px;
+}
+.line-height{
+    line-height: 3 !important;
+}
+.col-1{
+    width: 8.33%;
+    
+}
+
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
