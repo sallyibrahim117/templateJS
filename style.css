@@ -9,6 +9,9 @@ position: relative;
     border-radius: 6px;
 }
 .button-info{
+    position: relative;
+}
+.button-info > div{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -16,6 +19,18 @@ position: relative;
     width: 100%;
     
 }
+.button-info .second
+{
+    background: #d53c3c !important; 
+    color: white;
+display: none;
+
+}
+.button-info .second span
+{
+    padding-inline:20px;
+}
+
 .button-info button{
     display: flex;
 align-items: center;
